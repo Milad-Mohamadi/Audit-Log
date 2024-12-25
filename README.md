@@ -32,7 +32,7 @@
 
 This project provides an **accounting platform** that allows you to:
 
-- Manage **incomes** (درآمد), **expenses** (هزینه), **loans** (وام), **investments** (سرمایه), **withdrawals** (برداشت), **bank accounts** (حساب‌های بانکی), and **persons** (اشخاص).
+- Manage **incomes** , **expenses** , **loans** , **investments** , **withdrawals** , **bank accounts** , and **persons** .
 - Track financial data with **CRUD operations** through RESTful APIs.
 - Automatically log operations (creation, update, deletion) in a separate **audit log** collection in MongoDB.
 - Optionally capture **raw HTTP request and response bodies** to store them for compliance, debugging, or tracing purposes.
