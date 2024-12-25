@@ -16,6 +16,10 @@ public class AuditService {
         this.auditLogRepository = auditLogRepository;
     }
 
+    public void logAction(AuditLog log) {
+        auditLogRepository.save(log);
+    }
+
     public void logAction(String action, String entityId, String entityType, String details) {
         AuditLog auditLog = new AuditLog();
         auditLog.setAction(action);
