@@ -88,8 +88,8 @@ The application follows a layered architecture with clear separation of concerns
 
 1. **Clone** this repository:
    ```bash
-   git clone https://github.com/your-username/finance-audit.git
-   cd finance-audit
+   git clone https://github.com/Milad-Mohamadi/Audit-Log.git
+   cd money-manager
    ```
 
 2. **Build** the project:
@@ -120,7 +120,7 @@ In your `src/main/resources/application.properties` (or `application.yml`):
 
 ```properties
 # MongoDB connection
-spring.data.mongodb.uri=mongodb://localhost:27017/finance_app
+spring.data.mongodb.uri=mongodb://localhost:27017/money-manager
 
 # Server port
 server.port=8080
